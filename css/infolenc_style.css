@@ -1,0 +1,383 @@
+/* this is a all rounder class dickllera */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+
+.title-content {
+    font: size 2.1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+
+/* start of container styles and the header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-menu li {
+    list-style: none;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: black
+}
+
+/* this is a comment in banner style declaration*/
+.header-content {
+    display: flex;
+    gap: 133px;
+    margin: 48px 40px
+}
+
+.header-content-text {
+    max-width: 582px;
+    margin-top: 30px;
+}
+
+.content-tytle {
+    font-size: 3.1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+
+.content-description {
+    max-width: 505px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+    margin: 0px
+}
+
+.btn-primary {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 41px;
+    margin-top: 10px;
+}
+
+.header-content-image {
+    max-width: 475px;
+    background-image: url("../assets/Circle-design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.the_hedder_pic {
+    max-width: 440px;
+}
+
+/* design of pickup points or websites */
+.pickup-points {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1039px;
+    margin: 107px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* the area is body container or design of pickup points*/
+.collection1 {
+    max-width: 1047px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+}
+
+.the_ratting {
+    color: #E02C6D;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.a_price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0px;
+}
+
+.para_in_card {
+    max-width: 204px;
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* the third section area or design or decoration */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1039px;
+    margin: 100px auto;
+    gap: 96px;
+}
+.featured-content{
+    margin-top: 30px;
+}
+.section-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #0A0826;
+}
+
+.para {
+    max-width: 501px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+    margin: 0px
+}
+
+.btn-primary2 {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* footer styles start */
+
+.footer {
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding:3% 2%;
+}
+
+.footer-title{
+    font-size:1.8rem;
+    font-weight:600;
+    margin-bottom:1%;
+
+}
+ /* Responsive Design site */
+
+   /* Mobile & Tablet  */
+
+/* Tablet Device*/
+/* screen size: 576px to 992px */
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .header-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        margin: 30px 20px;
+    }
+
+    .header-content-text {
+        max-width: 100%;
+    }
+
+    .content-description {
+        max-width: 100%;
+    }
+
+    .header-content-image {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .the_hedder_pic {
+        width: 100%;
+    }
+
+    .pickup-points {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 50px 20px;
+        padding: 20px;
+    }
+
+    .collection {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .featured {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: 60px 20px;
+        gap: 40px;
+    }
+
+    .para {
+        max-width: 100%;
+    }
+}
+
+
+/* Mobile Device */
+/* screen size: below 576px */
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        gap: 15px;
+    }
+
+    .title-content {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .header-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        margin: 20px;
+    }
+
+    .content-tytle {
+        font-size: 2rem;
+    }
+
+    .content-description {
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .header-content-text {
+        max-width: 100%;
+    }
+
+    .header-content-image {
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .the_hedder_pic {
+        width: 100%;
+    }
+
+    .pickup-points {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 40px 15px;
+        padding: 15px;
+    }
+
+    .collection {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .featured {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: 50px 15px;
+        gap: 30px;
+    }
+
+    .featured img {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .para {
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+}
