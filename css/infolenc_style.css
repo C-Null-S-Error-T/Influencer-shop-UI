@@ -42,9 +42,11 @@ body {
 
 /* this is a comment in banner style declaration*/
 .header-content {
+    max-width: 1300px;
     display: flex;
+    justify-content: space-around;
     gap: 133px;
-    margin: 48px 40px
+    margin: 48px auto;
 }
 
 .header-content-text {
